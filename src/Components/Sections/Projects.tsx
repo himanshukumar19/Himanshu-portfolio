@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
               key={index}
               className="group relative overflow-hidden rounded-xl 
                        border border-gray-200 dark:border-white/10 
-                       bg-gray-50 dark:bg-white/5 backdrop-blur-sm 
+                       bg-transparent backdrop-blur-sm 
                        p-4 sm:p-6 transition-all duration-300"
               aria-label={`Project: ${project.title}`}
               initial={{ opacity: 0, y: 30 }}
