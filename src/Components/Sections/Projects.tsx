@@ -16,26 +16,31 @@ const Projects: React.FC = () => {
       title: "AgriAI Platform",
       description:
         "A smart farming assistant that helps Indian farmers maximize profits using AI agents for crop decision-making. It provides 7-day market price predictions, real-time weather monitoring, yield forecasts, and intelligent recommendations on when to sell or hold crops. Farmers can chat with an AI agent 24/7, set price alerts, and get personalized farming advice based on current market conditions.",
-      technologies: ["React", "TypeScript", "FastAPI", "PostgreSQL", "Gemini API", "Docker", "TailwindCSS"],
+      technologies: [
+        "React",
+        "TypeScript",
+        "FastAPI",
+        "PostgreSQL",
+        "Gemini API",
+        "Docker",
+        "TailwindCSS",
+      ],
       github: "https://github.com/DaKsH18r/AgriAi",
       live: "https://affectionate-blessing-production-8047.up.railway.app",
     },
     {
       title: "Coming Soon",
-      description:
-        "Coming Soon",
+      description: "Coming Soon",
       technologies: ["React", "Node.js", "MongoDB"],
     },
     {
       title: "Coming Soon",
-      description:
-        "Coming Soon",
+      description: "Coming Soon",
       technologies: ["Next.js", "TypeScript", "Prisma"],
     },
     {
       title: "Coming Soon",
-      description:
-        "Coming Soon",
+      description: "Coming Soon",
       technologies: ["React", "Express", "PostgreSQL"],
     },
   ];
