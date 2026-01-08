@@ -69,11 +69,9 @@ const Projects: React.FC = () => {
             <motion.article
               key={index}
               className="group relative overflow-hidden rounded-xl 
-                       border border-gray-200 dark:border-white/10 
-                       bg-gray-50 dark:bg-white/5 backdrop-blur-sm 
-                       p-4 sm:p-6 transition-all duration-300 
-                       hover:bg-gray-100 dark:hover:bg-white/10 
-                       hover:border-gray-300 dark:hover:border-white/20"
+                       border border-blue-200 dark:border-purple-500/20 
+                       bg-gradient-to-br from-blue-50 to-purple-50 dark:from-purple-500/5 dark:to-blue-500/5 backdrop-blur-sm 
+                       p-4 sm:p-6 transition-all duration-300"
               aria-label={`Project: ${project.title}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
