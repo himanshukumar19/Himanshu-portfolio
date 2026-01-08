@@ -70,8 +70,7 @@ const Projects: React.FC = () => {
               key={index}
               className="group relative overflow-hidden rounded-xl 
                        border border-gray-200 dark:border-white/10 
-                       bg-transparent 
-                       p-4 sm:p-6 transition-all duration-300"
+                       bg-transparent"
               aria-label={`Project: ${project.title}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -84,7 +83,7 @@ const Projects: React.FC = () => {
             >
               {/* Project Image */}
               {project.image && (
-                <div className="mb-4 overflow-hidden rounded-lg -m-4 sm:-m-6 mb-4">
+                <div className="overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -93,6 +92,7 @@ const Projects: React.FC = () => {
                 </div>
               )}
 
+              <div className="p-4 sm:p-6">
               {/* Project Title */}
               <h3 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-white mb-2 sm:mb-3 font-inter">
                 {project.title}
@@ -168,6 +168,7 @@ const Projects: React.FC = () => {
                     Demo
                   </a>
                 )}
+              </div>
               </div>
             </motion.article>
           ))}
