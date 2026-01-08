@@ -169,9 +169,6 @@ const Projects: React.FC = () => {
                   </a>
                 )}
               </div>
-
-              {/* Hover gradient effect */}
-              <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-500/5 via-purple-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
             </motion.article>
           ))}
         </div>
