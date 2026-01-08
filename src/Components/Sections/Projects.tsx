@@ -13,35 +13,30 @@ interface Project {
 const Projects: React.FC = () => {
   const projects: Project[] = [
     {
-      title: "E-Commerce Platform",
+      title: "AgriAI Platform",
       description:
-        "A full-stack e-commerce platform with cart, payment integration, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "https://github.com/yourusername/project1",
-      live: "https://project1.com",
+        "A smart farming assistant that helps Indian farmers maximize profits using AI agents for crop decision-making. It provides 7-day market price predictions, real-time weather monitoring, yield forecasts, and intelligent recommendations on when to sell or hold crops. Farmers can chat with an AI agent 24/7, set price alerts, and get personalized farming advice based on current market conditions.",
+      technologies: ["React", "TypeScript", "FastAPI", "PostgreSQL", "Gemini API", "Docker", "TailwindCSS"],
+      github: "https://github.com/DaKsH18r/AgriAi",
+      live: "https://affectionate-blessing-production-8047.up.railway.app",
     },
     {
-      title: "AI Chat Application",
+      title: "Coming Soon",
       description:
-        "Real-time chat application with AI-powered responses using OpenAI API.",
-      technologies: ["Next.js", "TypeScript", "Firebase", "OpenAI"],
-      github: "https://github.com/yourusername/project2",
-      live: "https://project2.com",
+        "Coming Soon",
+      technologies: ["React", "Node.js", "MongoDB"],
     },
     {
-      title: "Task Management System",
+      title: "Coming Soon",
       description:
-        "Collaborative task management tool with drag-and-drop functionality and team features.",
-      technologies: ["React", "Express", "PostgreSQL", "Prisma"],
-      github: "https://github.com/yourusername/project3",
+        "Coming Soon",
+      technologies: ["Next.js", "TypeScript", "Prisma"],
     },
     {
-      title: "Weather Dashboard",
+      title: "Coming Soon",
       description:
-        "Interactive weather dashboard with forecasts, maps, and historical data visualization.",
-      technologies: ["React", "TypeScript", "TailwindCSS", "API"],
-      github: "https://github.com/yourusername/project4",
-      live: "https://project4.com",
+        "Coming Soon",
+      technologies: ["React", "Express", "PostgreSQL"],
     },
   ];
 
