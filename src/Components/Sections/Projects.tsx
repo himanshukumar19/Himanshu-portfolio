@@ -92,19 +92,19 @@ const Projects: React.FC = () => {
                 </div>
               )}
 
-              <div className="p-4 sm:p-6">
+              <div className="p-4 sm:p-6 flex flex-col">
               {/* Project Title */}
-              <h3 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-white mb-2 sm:mb-3 font-inter">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-white mb-2 font-inter">
                 {project.title}
               </h3>
 
               {/* Description */}
-              <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mb-3 sm:mb-4 line-clamp-3">
+              <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
                 {project.description}
               </p>
 
               {/* Technologies */}
-              <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-3 sm:mb-4">
+              <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-4">
                 {project.technologies.map((tech, techIndex) => (
                   <span
                     key={techIndex}
@@ -119,7 +119,7 @@ const Projects: React.FC = () => {
               </div>
 
               {/* Links */}
-              <div className="flex gap-3">
+              <div className="flex gap-3 mt-auto">
                 {project.github && (
                   <a
                     href={project.github}
