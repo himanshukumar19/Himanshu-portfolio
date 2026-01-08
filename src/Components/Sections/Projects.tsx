@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
             >
               {/* Project Image */}
               {project.image && (
-                <div className="mb-4 overflow-hidden rounded-lg">
+                <div className="mb-4 overflow-hidden rounded-lg -m-4 sm:-m-6 mb-4">
                   <img
                     src={project.image}
                     alt={project.title}
