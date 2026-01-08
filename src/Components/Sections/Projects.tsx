@@ -27,6 +27,7 @@ const Projects: React.FC = () => {
       ],
       github: "https://github.com/DaKsH18r/AgriAi",
       live: "https://affectionate-blessing-production-8047.up.railway.app",
+      image: "/Agri-AI Home.png",
     },
     {
       title: "Coming Soon",
@@ -83,6 +84,17 @@ const Projects: React.FC = () => {
                 ease: "easeOut",
               }}
             >
+              {/* Project Image */}
+              {project.image && (
+                <div className="mb-4 overflow-hidden rounded-lg">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+              )}
+
               {/* Project Title */}
               <h3 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-white mb-2 sm:mb-3 font-inter">
                 {project.title}
