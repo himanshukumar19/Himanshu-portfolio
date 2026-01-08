@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 interface Project {
@@ -11,6 +11,14 @@ interface Project {
 }
 
 const Projects: React.FC = () => {
+  const [expandedProjects, setExpandedProjects] = useState<number[]>([]);
+
+  const toggleExpand = (index: number) => {
+    setExpandedProjects((prev) =>
+      prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]
+    );
+  };
+
   const projects: Project[] = [
     {
       title: "AgriAI Platform",
@@ -99,9 +107,25 @@ const Projects: React.FC = () => {
                 </h3>
 
                 {/* Description */}
-                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mb-4">
-                  {project.description}
-                </p>
+                <div className="mb-4">
+                  <p
+                    className={`text-xs sm:text-sm text-gray-600 dark:text-gray-400 ${
+                      !expandedProjects.includes(index) ? "line-clamp-3" : ""
+                    }`}
+                  >
+                    {project.description}
+                  </p>
+                  {project.description.length > 150 && (
+                    <button
+                      onClick={() => toggleExpand(index)}
+                      className="text-xs text-blue-600 dark:text-blue-400 hover:underline mt-1"
+                    >
+                      {expandedProjects.includes(index)
+                        ? "Read less"
+                        : "Read more"}
+                    </button>
+                  )}
+                </div>
 
                 {/* Technologies */}
                 <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-4">
