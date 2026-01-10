@@ -76,7 +76,7 @@ const About: React.FC = () => {
             <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
           </span>
           <span className="whitespace-nowrap">
-            Available for new opportunities
+            Open to new opportunities and collaborations
           </span>
         </button>
       </div>
