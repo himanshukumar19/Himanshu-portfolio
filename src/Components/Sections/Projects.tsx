@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
         "TailwindCSS",
       ],
       github: "https://github.com/DaKsH18r/AgriAi",
-      live: "https://affectionate-blessing-production-8047.up.railway.app",
+      live: "https://affectionate-blessing-production-f13d.up.railway.app",
       image: "/Agri-AI Home.png",
     },
     {
