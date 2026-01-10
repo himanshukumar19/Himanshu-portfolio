@@ -63,7 +63,7 @@ const About: React.FC = () => {
           className="inline-flex items-center justify-center gap-2 sm:gap-3 rounded-xl 
                      border border-gray-200 dark:border-white/10 
                      bg-gray-50 dark:bg-white/5 
-                     px-3 sm:px-4 py-2 text-xs sm:text-sm 
+                     px-3 sm:px-4 py-2 text-sm sm:text-base 
                      text-gray-700 dark:text-gray-200 
                      hover:bg-gray-100 dark:hover:bg-white/10 
                      transition-colors"
