@@ -79,36 +79,6 @@ const About: React.FC = () => {
             Available for new opportunities
           </span>
         </button>
-
-        {/* Download CV pill */}
-        <a
-          href="/DakshResume.pdf"
-          download="DakshResume.pdf"
-          aria-label="Download my resume as PDF"
-          className="inline-flex items-center justify-center gap-2 sm:gap-3 rounded-xl 
-                     border border-gray-200 dark:border-white/10 
-                     bg-gray-50 dark:bg-white/5 
-                     px-3 sm:px-4 py-2 text-xs sm:text-sm 
-                     text-gray-700 dark:text-gray-200 
-                     hover:bg-gray-100 dark:hover:bg-white/10 
-                     transition-colors"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="h-4 w-4 text-gray-500 dark:text-gray-300 flex-shrink-0"
-          >
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-            <polyline points="7,10 12,15 17,10" />
-            <line x1="12" y1="15" x2="12" y2="3" />
-          </svg>
-          <span className="whitespace-nowrap">Download CV</span>
-        </a>
       </div>
     </motion.section>
   );
