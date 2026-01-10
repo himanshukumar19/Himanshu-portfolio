@@ -10,7 +10,7 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({
-  title = "Daksh Sangwan - Full Stack Developer",
+  title = "Daksh Sangwan",
   description = "Full Stack Developer from Delhi, India. Building web applications with React, Node.js, and modern technologies.",
   keywords = "Daksh Sangwan, Full Stack Developer, React, Node.js, Web Developer, Portfolio",
   image = "/PfLogo.png",
