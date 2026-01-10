@@ -356,7 +356,7 @@ const Contact: React.FC = () => {
             className="pt-3 hidden lg:block"
           >
             <p className="text-sm text-gray-500 dark:text-gray-400 font-inter">
-              © 2025 Designed & Built by Daksh
+              © 2026 Designed & Built by Daksh
             </p>
           </motion.div>
         </div>
@@ -642,7 +642,7 @@ const Contact: React.FC = () => {
         className="pt-8 lg:hidden"
       >
         <p className="text-sm text-gray-500 dark:text-gray-400 font-inter text-center">
-          © 2025 Designed & Built by Daksh
+          © 2026 Designed & Built by Daksh
         </p>
       </motion.div>
     </section>
