@@ -13,5 +13,4 @@ const Blog: React.FC = () => {
     </div>
   )
 }
-
 export default Blog
