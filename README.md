@@ -1,4 +1,4 @@
-# 💼 Daksh Sangwan - Portfolio
+# 💼 Himanshu Kumar - Portfolio
 
 A modern, performant portfolio website built with React 19, TypeScript, and TailwindCSS.
 
@@ -25,10 +25,10 @@ A modern, performant portfolio website built with React 19, TypeScript, and Tail
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/himanshukumar19/Himanshu-Portfolio.git
 
 # Navigate to project directory
-cd DakshPF
+cd Himanshu-Portfolio
 
 # Install dependencies
 npm install --legacy-peer-deps
@@ -50,14 +50,14 @@ VITE_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_EMAILJS_PUBLIC_KEY=your_public_key
 
 # Site Configuration
-VITE_SITE_URL=http://localhost:5173
+VITE_SITE_URL=https://himanshu.dev
 
 # Social Links
-VITE_GITHUB_URL=https://github.com/yourusername
-VITE_LINKEDIN_URL=https://linkedin.com/in/yourusername
-VITE_TWITTER_URL=https://twitter.com/yourusername
-VITE_DISCORD_URL=https://discord.gg/yourinvite
-VITE_INSTAGRAM_URL=https://instagram.com/yourusername
+VITE_GITHUB_URL=https://github.com/himanshukumar19
+VITE_LINKEDIN_URL=https://www.linkedin.com/in/himanshukumar19/
+VITE_TWITTER_URL=https://x.com/himanshu__2109
+VITE_DISCORD_URL=
+VITE_INSTAGRAM_URL=
 ```
 
 ### Development
@@ -178,10 +178,10 @@ Contributions, issues, and feature requests are welcome!
 
 ## 👤 Author
 
-**Daksh Sangwan**
-- GitHub: [@DaKSH18r](https://github.com/DaKSH18r)
-- LinkedIn: [Daksh Sangwan](https://www.linkedin.com/in/daksh-sangwan-129783255)
-- Twitter: [@DaKSH18_](https://x.com/DaKSH18_)
+**Himanshu Kumar**
+- GitHub: [@himanshukumar19](https://github.com/himanshukumar19)
+- LinkedIn: [Himanshu Kumar](https://www.linkedin.com/in/himanshukumar19/)
+- Twitter: [@himanshu__2109](https://x.com/himanshu__2109)
 
 ---
 

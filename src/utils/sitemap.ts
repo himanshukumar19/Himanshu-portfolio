@@ -5,7 +5,7 @@ import { SITE_URL } from "../utils/constants";
  * Call this to create your sitemap
  */
 export const generateSitemap = (): string => {
-  const baseUrl = SITE_URL || "https://yourdomain.com";
+  const baseUrl = SITE_URL || "https://himanshu.dev";
   const currentDate = new Date().toISOString().split("T")[0];
 
   const urls = [

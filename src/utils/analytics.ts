@@ -142,5 +142,5 @@ declare global {
  * </script>
  *
  * For Plausible (privacy-friendly):
- * <script defer data-domain="yourdomain.com" src="https://plausible.io/js/script.js"></script>
+ * <script defer data-domain="himanshu.dev" src="https://plausible.io/js/script.js"></script>
  */
