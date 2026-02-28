@@ -21,34 +21,33 @@ const About: React.FC = () => {
 
         <div className="mt-2 space-y-2 text-xs text-gray-600 dark:text-[#A3A3A3] md:text-sm leading-relaxed">
           <p>
-            Hello! I'm a developer from Delhi, India. I build things that make
-            <span className="font-medium text-gray-900 dark:text-white">
-              {" "}
-              sense
+            Hello! I'm a Full Stack Developer from Hubballi, India, specializing in{" "}
+            <span className="font-bold text-teal-600 dark:text-teal-300">
+              backend systems
             </span>
-            , both in code and in the real world.
+            ,{" "}
+            <span className="font-bold text-teal-600 dark:text-teal-300">
+              REST APIs
+            </span>
+            , and{" "}
+            <span className="font-bold text-teal-600 dark:text-teal-300">
+              deployment workflows
+            </span>
+            .
           </p>
 
           <p>
-            I believe the best way to learn is by{" "}
+            I build{" "}
+            <span className="font-bold text-teal-600 dark:text-teal-300">
+              scalable applications
+            </span>{" "}
+            through hands-on project experience using the{" "}
+            <span className="font-bold text-teal-600 dark:text-teal-300">
+              MERN stack
+            </span>{" "}
+            and continuously improve my skills by solving{" "}
             <span className="font-medium text-gray-900 dark:text-white">
-              building
-            </span>
-            . I spend my time creating{" "}
-            <span className="font-bold text-teal-600 dark:text-teal-300">
-              full-stack applications
-            </span>{" "}
-            from scratch with{" "}
-            <span className="font-bold text-teal-600 dark:text-teal-300">
-              React
-            </span>{" "}
-            and{" "}
-            <span className="font-bold text-teal-600 dark:text-teal-300">
-              Node.js
-            </span>
-            , taking them from a simple idea to a{" "}
-            <span className="font-bold text-teal-600 dark:text-teal-300">
-              finished product
+              real-world development challenges
             </span>
             .
           </p>

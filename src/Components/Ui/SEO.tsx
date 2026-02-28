@@ -10,9 +10,9 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({
-  title = "Daksh Sangwan",
-  description = "Full Stack Developer from Delhi, India. Building web applications with React, Node.js, and modern technologies.",
-  keywords = "Daksh Sangwan, Full Stack Developer, React, Node.js, Web Developer, Portfolio",
+  title = "Himanshu Kumar",
+  description = "Full Stack Developer from Hubballi, India. Building scalable web applications with the MERN stack and modern technologies.",
+  keywords = "Himanshu Kumar, Full Stack Developer, MERN, React, Node.js, Web Developer, Portfolio",
   image = "/PfLogo.png",
   url = SITE_URL,
 }) => {
@@ -20,27 +20,29 @@ const SEO: React.FC<SEOProps> = ({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Daksh Sangwan",
+    name: "Himanshu Kumar",
     jobTitle: "Full Stack Developer",
     description: description,
     url: url,
     image: image,
     sameAs: [
-      "https://github.com/DaKSH18r",
-      "https://www.linkedin.com/in/daksh-sangwan-129783255",
-      "https://x.com/DaKSH18_",
+      "https://github.com/himanshukumar19",
+      "https://www.linkedin.com/in/himanshukumar19/",
+      "https://x.com/himanshu__2109",
     ],
     address: {
       "@type": "PostalAddress",
-      addressLocality: "New Delhi",
+      addressLocality: "Hubballi",
       addressCountry: "India",
     },
     knowsAbout: [
       "React",
       "TypeScript",
       "Node.js",
+      "MongoDB",
+      "Express",
       "Full Stack Development",
-      "Web Development",
+      "REST APIs",
       "JavaScript",
     ],
   };

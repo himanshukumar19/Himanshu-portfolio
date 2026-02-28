@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         className="absolute md:fixed top-2 -right-2 md:right-2 z-40 flex items-center gap-2 px-3 py-1.5 
                 text-xs sm:text-sm font-figtree text-gray-700 dark:text-gray-200 
                 backdrop-blur-sm rounded-md shadow-sm bg-white/80 dark:bg-transparent"
-        aria-label="Location: New Delhi, India"
+        aria-label="Location: Hubballi, India"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
           <circle cx="12" cy="12" r="7" />
           <circle cx="12" cy="12" r="3" />
         </svg>
-        <span>New Delhi, India</span>
+        <span>Hubballi, India</span>
       </div>
 
       {/* Mobile Layout */}
@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-row items-center justify-between gap-5">
           <div className="flex-1 space-y-2">
             <div className="text-[26px] sm:text-3xl font-bold leading-none font-inter text-gray-900 dark:text-white">
-              Hi, I'm Daksh 👋
+              Hi, I'm Himanshu 👋
             </div>
             <div className="font-[Poppins]">
               <h1 className="text-base sm:text-lg text-gray-700 dark:text-[#DBE6F0]">
@@ -64,10 +64,12 @@ const Hero: React.FC = () => {
                   <span className="text-gray-900 dark:text-white">
                     <Typewriter
                       words={[
-                        "Coder.",
-                        "Developer.",
+                        "MERN Developer.",
+                        "Frontend Developer.",
                         "Full Stack Developer.",
-                        "Data Scientist.",
+                        "Backend Developer.",
+                        "Software Engineer.",
+                        "Web Developer.",
                       ]}
                       loop={0}
                       cursor
@@ -85,7 +87,7 @@ const Hero: React.FC = () => {
             <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden">
               <img
                 src="/PfLogo.png"
-                alt="Daksh Pfp"
+                alt="Himanshu Kumar"
                 className="w-full h-full object-cover rounded-full"
                 width="136"
                 height="136"
@@ -101,7 +103,7 @@ const Hero: React.FC = () => {
         {/* Left side - Text content */}
         <div className="w-1/2 space-y-4 lg:space-y-6">
           <div className="text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight font-inter whitespace-nowrap text-gray-900 dark:text-white">
-            Hi, I'm Daksh 👋
+            Hi, I'm Himanshu 👋
           </div>
 
           <div className="font-[Poppins]">
@@ -113,10 +115,12 @@ const Hero: React.FC = () => {
                 <span className="text-gray-900 dark:text-white whitespace-nowrap">
                   <Typewriter
                     words={[
-                      "Coder.",
-                      "Developer.",
+                      "MERN Developer.",
+                      "Frontend Developer.",
                       "Full Stack Developer.",
-                      "Data Scientist.",
+                      "Backend Developer.",
+                      "Software Engineer.",
+                      "Web Developer.",
                     ]}
                     loop={0}
                     cursor
@@ -136,7 +140,7 @@ const Hero: React.FC = () => {
           <div className="w-32 h-32 lg:w-34 lg:h-34 rounded-full overflow-hidden">
             <img
               src="/PfLogo.png"
-              alt="Daksh Pfp"
+              alt="Himanshu Kumar"
               className="w-full h-full object-cover rounded-full"
               width="136"
               height="136"

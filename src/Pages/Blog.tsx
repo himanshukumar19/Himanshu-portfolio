@@ -5,7 +5,7 @@ const Blog: React.FC = () => {
   return (
     <div className="py-8">
       <SEO 
-        title="Blog - Daksh Sangwan"
+        title="Blog - Himanshu Kumar"
         description="Thoughts and articles about web development, coding, and technology"
       />
       <h1 className="text-4xl font-bold text-gray-900 dark:text-white">Blog</h1>

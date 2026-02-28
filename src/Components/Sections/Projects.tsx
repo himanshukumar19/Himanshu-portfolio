@@ -21,36 +21,60 @@ const Projects: React.FC = () => {
 
   const projects: Project[] = [
     {
-      title: "AgriAI Platform",
+      title: "Uber Clone",
       description:
-        "A smart farming assistant that helps Indian farmers maximize profits using AI agents for crop decision-making. It provides 7-day market price predictions, real-time weather monitoring, yield forecasts, and intelligent recommendations on when to sell or hold crops. Farmers can chat with an AI agent 24/7, set price alerts, and get personalized farming advice based on current market conditions.",
+        "A full-stack ride-sharing application with real-time live tracking, captain and rider flows, animated UI components, and secure authentication. Features include map integration with Leaflet, CORS-configured backend, and a responsive frontend deployed on Vercel.",
       technologies: [
         "React",
-        "TypeScript",
-        "FastAPI",
-        "PostgreSQL",
-        "Gemini API",
-        "Docker",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JavaScript",
+        "Leaflet",
         "TailwindCSS",
       ],
-      github: "https://github.com/DaKsH18r/AgriAi",
-      live: "https://agri-ai-eight-nu.vercel.app",
-      image: "/Agri-AI Home.png",
+      github: "https://github.com/himanshukumar19/uber-clone",
+      live: "https://uber-clone-five-omega.vercel.app",
     },
     {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      technologies: ["React", "Node.js", "MongoDB"],
+      title: "Droply",
+      description:
+        "A cloud file management platform built with Next.js featuring file upload, folder organization, and a custom navbar. Uses Drizzle ORM for database operations with authentication middleware and a polished, responsive UI.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Drizzle ORM",
+        "TailwindCSS",
+        "Clerk Auth",
+      ],
+      github: "https://github.com/himanshukumar19/Droply",
+      live: "https://droply-nine.vercel.app",
     },
     {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      technologies: ["Next.js", "TypeScript", "Prisma"],
+      title: "GlowGuide",
+      description:
+        "An AI-powered skincare recommendation app with a machine learning service backend and a modern TypeScript frontend. Features an optimized quiz system for personalized skincare routines and product suggestions.",
+      technologies: [
+        "TypeScript",
+        "React",
+        "Python",
+        "Machine Learning",
+        "TailwindCSS",
+      ],
+      github: "https://github.com/himanshukumar19/GlowGuide",
     },
     {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      technologies: ["React", "Express", "PostgreSQL"],
+      title: "Treasure Hunt Leaderboard",
+      description:
+        "A leaderboard microfrontend for a treasure hunt application built with Svelte, served on a dedicated route of the main Next.js app. Features real-time score tracking with a Vite-powered development experience.",
+      technologies: [
+        "Svelte",
+        "TypeScript",
+        "Vite",
+        "TailwindCSS",
+      ],
+      github: "https://github.com/himanshukumar19/Treasure-Hunt-Leaderboard",
+      live: "https://treasure-hunt-leaderboard-indol.vercel.app",
     },
   ];
 
