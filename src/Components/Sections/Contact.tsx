@@ -431,7 +431,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     placeholder="Full Name"
                     aria-label="Full Name"
-                    aria-invalid={errors.name ? "true" : "false"}
+                    {...(errors.name ? { "aria-invalid": "true" as const } : {})}
                     required
                     className={`w-full px-4 py-2.5 
                              bg-gray-50 dark:bg-white/[0.03] 
@@ -477,7 +477,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     placeholder="Email"
                     aria-label="Email Address"
-                    aria-invalid={errors.email ? "true" : "false"}
+                    {...(errors.email ? { "aria-invalid": "true" as const } : {})}
                     required
                     className={`w-full px-4 py-2.5 
                              bg-gray-50 dark:bg-white/[0.03] 
@@ -522,7 +522,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     placeholder="Message"
                     aria-label="Message"
-                    aria-invalid={errors.message ? "true" : "false"}
+                    {...(errors.message ? { "aria-invalid": "true" as const } : {})}
                     required
                     rows={5}
                     maxLength={500}
