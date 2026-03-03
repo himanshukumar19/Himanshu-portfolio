@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 interface Project {
   title: string;
+  icon?: string;
   description: string;
   technologies: string[];
   github?: string;
@@ -22,6 +23,7 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       title: "Pixel UI — 8-Bit Component Library",
+      icon: "🧩",
       description:
         "A pixel-art/8-bit retro UI component library with a documentation website, built as a team project. Contributed 4 feedback components (PixelRating, PixelWarningTooltip, PixelUndoChip, PixelAIBubble), a comprehensive Redux filtering system for the Pixel Shop, and fixed missing previews and accessibility issues.",
       technologies: [
@@ -36,6 +38,7 @@ const Projects: React.FC = () => {
     },
     {
       title: "GlowGuide",
+      icon: "✨",
       description:
         "An AI-powered skincare recommendation app with a machine learning service backend and a modern TypeScript frontend. Features an optimized quiz system for personalized skincare routines and product suggestions.",
       technologies: [
@@ -46,9 +49,11 @@ const Projects: React.FC = () => {
         "TailwindCSS",
       ],
       github: "https://github.com/himanshukumar19/GlowGuide",
+      live: "https://www.youtube.com/watch?v=hBuuVrcXdOA",
     },
     {
       title: "RaahiGo",
+      icon: "🚗",
       description:
         "A full-stack ride-sharing application with real-time live tracking, captain and rider flows, animated UI components, and secure authentication. Features include map integration with Leaflet, CORS-configured backend, and a responsive frontend deployed on Vercel.",
       technologies: [
@@ -65,6 +70,7 @@ const Projects: React.FC = () => {
     },
     {
       title: "Droply",
+      icon: "☁️",
       description:
         "A cloud file management platform built with Next.js featuring file upload, folder organization, and a custom navbar. Uses Drizzle ORM for database operations with authentication middleware and a polished, responsive UI.",
       technologies: [
@@ -128,6 +134,7 @@ const Projects: React.FC = () => {
               <div className="p-4 sm:p-6 flex flex-col">
                 {/* Project Title */}
                 <h3 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-white mb-2 font-inter">
+                  {project.icon && <span className="mr-1.5">{project.icon}</span>}
                   {project.title}
                 </h3>
 
