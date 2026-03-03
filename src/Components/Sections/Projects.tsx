@@ -21,34 +21,18 @@ const Projects: React.FC = () => {
 
   const projects: Project[] = [
     {
-      title: "Uber Clone",
+      title: "Pixel UI — 8-Bit Component Library",
       description:
-        "A full-stack ride-sharing application with real-time live tracking, captain and rider flows, animated UI components, and secure authentication. Features include map integration with Leaflet, CORS-configured backend, and a responsive frontend deployed on Vercel.",
-      technologies: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "JavaScript",
-        "Leaflet",
-        "TailwindCSS",
-      ],
-      github: "https://github.com/himanshukumar19/uber-clone",
-      live: "https://uber-clone-five-omega.vercel.app",
-    },
-    {
-      title: "Droply",
-      description:
-        "A cloud file management platform built with Next.js featuring file upload, folder organization, and a custom navbar. Uses Drizzle ORM for database operations with authentication middleware and a polished, responsive UI.",
+        "A pixel-art/8-bit retro UI component library with a documentation website, built as a team project. Contributed 4 feedback components (PixelRating, PixelWarningTooltip, PixelUndoChip, PixelAIBubble), a comprehensive Redux filtering system for the Pixel Shop, and fixed missing previews and accessibility issues.",
       technologies: [
         "Next.js",
         "TypeScript",
-        "Drizzle ORM",
-        "TailwindCSS",
-        "Clerk Auth",
+        "Tailwind CSS",
+        "Radix UI",
+        "Redux",
       ],
-      github: "https://github.com/himanshukumar19/Droply",
-      live: "https://droply-nine.vercel.app",
+      github: "https://github.com/Team-Parashuram/Pixel-art-8-bit",
+      live: "https://pixel8-ui.vercel.app",
     },
     {
       title: "GlowGuide",
@@ -64,17 +48,34 @@ const Projects: React.FC = () => {
       github: "https://github.com/himanshukumar19/GlowGuide",
     },
     {
-      title: "Treasure Hunt Leaderboard",
+      title: "RaahiGo",
       description:
-        "A leaderboard microfrontend for a treasure hunt application built with Svelte, served on a dedicated route of the main Next.js app. Features real-time score tracking with a Vite-powered development experience.",
+        "A full-stack ride-sharing application with real-time live tracking, captain and rider flows, animated UI components, and secure authentication. Features include map integration with Leaflet, CORS-configured backend, and a responsive frontend deployed on Vercel.",
       technologies: [
-        "Svelte",
-        "TypeScript",
-        "Vite",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JavaScript",
+        "Leaflet",
         "TailwindCSS",
       ],
-      github: "https://github.com/himanshukumar19/Treasure-Hunt-Leaderboard",
-      live: "https://treasure-hunt-leaderboard-indol.vercel.app",
+      github: "https://github.com/himanshukumar19/RaahiGo",
+      live: "https://uber-clone-five-omega.vercel.app",
+    },
+    {
+      title: "Droply",
+      description:
+        "A cloud file management platform built with Next.js featuring file upload, folder organization, and a custom navbar. Uses Drizzle ORM for database operations with authentication middleware and a polished, responsive UI.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Drizzle ORM",
+        "TailwindCSS",
+        "Clerk Auth",
+      ],
+      github: "https://github.com/himanshukumar19/Droply",
+      live: "https://droply-nine.vercel.app",
     },
   ];
 

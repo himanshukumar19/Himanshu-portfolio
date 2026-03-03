@@ -50,7 +50,7 @@ VITE_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_EMAILJS_PUBLIC_KEY=your_public_key
 
 # Site Configuration
-VITE_SITE_URL=https://himanshu.dev
+VITE_SITE_URL=https://himanshu-kumar55.vercel.app
 
 # Social Links
 VITE_GITHUB_URL=https://github.com/himanshukumar19
